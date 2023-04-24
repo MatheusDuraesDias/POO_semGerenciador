@@ -21,4 +21,4 @@ jobs:
     - name: Compliando no Java
       run: |
         cd src
-        javac -cp Main.java
+        javac -cp . Main.java
