@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compliando no Java
-      run: javac src/Main.java src/Alimento.java src/Carne.java src/Data.java src/Vegetais.java
+      run: mvn package
