@@ -19,8 +19,6 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compliando no Java
-      run: |
-        cd src
-        javac -cp . Main.java
+      run: javac src/*.java
     - name: Rodando o progrma
       run: java src/Main.java
