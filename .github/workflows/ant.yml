@@ -23,6 +23,4 @@ jobs:
         cd src
         javac -cp . Main.java
     - name: Rodando o progrma
-      run: |
-        cd src
-        java . Main.java
+      run: java src/Main.java
