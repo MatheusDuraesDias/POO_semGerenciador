@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compliando no Java
-      run: mvn package -Dmaven.compile.includes=src/MainClass1.java,src/MainClass2.java
+      run: javac src/.
